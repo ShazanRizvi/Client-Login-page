@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"href="styles.css">
+</head>
+<body>
+    <div class="container-sm">
+    <h1>CLIENT LOGIN</h1>
+
+    <form action="#" method="post" onsubmit="return login()">
+        <div class="mb-2">
+          <label class="form-label" placeholder = "Email or phone">Username</label>
+          <input type="text" class="form-control" id="username">
+          <div id="emailHelp" class="form-text">We'll never share your email or phone number with anyone else.</div>
+        </div>
+        <div class="mb-2">
+          <label for="password" class="form-label">Password</label>
+          <input type="text" class="form-control" id="password">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-label" id="Check1">
+          <label class="form-check-label" for="Check1">I accept the terms and conditions policy</label>
+        </div>
+        <div class = "d-grid gap-2">
+        <button type="submit" id= "btn1" class="btn btn-primary" data-bs-toggle="button" autocomplete="off">Login</button>
+        <h4>This login form is a demo </h4>
+         </div>
+      </form>
+    </div>
+    
+</html>
+<script src="login.js" charset="utf-8"></script>
+</body>

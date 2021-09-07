@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+.container-sm
+{
+   
+    padding:10% 30% 10% 30%;
+}
+#btn1{
+   background-color: black;
+   border-radius: 20px;
+}
+h4{
+    font-size: small;
+    text-align: center;
+    padding-top: 4.5%;
+}
+#username{
+    border-radius: 20px;
+ 
+}
+#password{
+    border-radius: 20px;
+}
+.form-label{
+    padding: 2% 0% 0% 2%;
+}
+
+.form-check-label{
+    padding:  2% 0% 0% 2%;
+}
